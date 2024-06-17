@@ -36,7 +36,6 @@ const Feature = () => {
                                     key={index}
                                     title={item.title}
                                     content={item.content}
-                                    link={item.link}
                                     linkTitle={item.linkTitle}
                                     icon={item.icon}
                                 />
