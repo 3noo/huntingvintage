@@ -1,0 +1,33 @@
+/*
+
+=========================================================
+* Avenue CSS Kit v0.1
+=========================================================
+
+* Demo Page: 'https://pathway.chrstnl.com/'
+* Copyright 2022 - 2023 chrstnl 
+* Coded by chrstnl
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
+
+
+// Core CSS Reset/MISCS
+@import "core/misc";
+
+
+// Core Declarations
+@import "core/variables";
+
+// Core Components
+@import "core/general";
+@import "core/components/header";
+@import "core/components/section";
+
+
+
+
+// Core Plugins
+// @import "plugins/plugin-tailwind";

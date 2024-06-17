@@ -1,0 +1,88 @@
+html {
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  letter-spacing: rem(-0.5);
+}
+
+.wrap {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  &-sm {
+    max-width: 768px;
+  }
+
+  &-px {
+    padding-left: rem(32);
+    padding-right: rem(32);
+  }
+}
+
+.wrap-lg {
+
+}
+
+.wrap-md {
+
+}
+/*
+Typography
+=================
+*/
+.poster {
+  font-size: $poster-size;
+  line-height: $poster-size;
+}
+
+.large-h1 {
+  font-size: $large-h1-size;
+  line-height: $large-h1-size;
+}
+
+.section-title {
+  font-size: $section-title-size;
+}
+
+h1, .h1 {
+  font-size: $h1-size;
+  line-height: rem(60);
+}
+
+h2, .h2 {
+  font-size: $h2-size;
+  line-height: rem(42);
+}
+
+h3, .h3 {
+  font-size: $h3-size;
+  line-height: rem(36);
+}
+
+h4, .h4 {
+  font-size: $h4-size;
+  line-height: rem(32);
+}
+
+h5, .h5 {
+  font-size: $h5-size;
+  line-height: rem(28);
+}
+
+h6, .h6 {
+  font-size: $h6-size;
+  line-height: rem(24);
+}
+
+p {
+  margin-top: rem(24);
+  margin-bottom: rem(24);
+  + p {
+    margin-top: 0;
+  }
+}
+
+p, ul, ol, blockquote {
+  line-height: rem(24);
+}

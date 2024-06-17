@@ -1,0 +1,72 @@
+/**
+ *
+ =========================================================
+ * Custom Section styling
+ =========================================================
+ *
+**/
+
+.section-container {
+
+}
+
+.section-content-container {
+    .section-content {
+        max-width:rem(768);
+    }
+}
+
+.image-container {
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    &__full {
+        img {
+            width: 100%;
+            min-height: rem(256);
+            max-height: rem(640);
+            height: auto;
+            object-fit: cover;
+        }
+    }
+}
+
+.highlight-content-container {
+    .image-container {
+        figure {
+            width: 100%;
+            @screen lg {
+                img {
+                    max-width: rem(512);
+                }
+            }
+            img {
+                aspect-ratio: 1/1;
+            }
+        }
+    }
+    .content-container {
+        width: 100%;
+        h2 {
+            font-size: $h2-size;
+        }
+        @screen xl {
+            width: 100%;
+            max-width: rem(512);
+        }
+        
+    }
+    .button-container {
+        .buttons {
+            justify-content: center;
+            a {
+                width: auto;
+            }
+            @screen md {
+                justify-content: inherit;
+            }
+        }
+    }
+}
